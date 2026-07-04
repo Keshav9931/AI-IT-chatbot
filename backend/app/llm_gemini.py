@@ -8,7 +8,7 @@ from llama_index.core.llms import (
 
 
 class GeminiLLM(CustomLLM):
-    def __init__(self, api_key: str, model: str = "gemini-1.5-flash"):
+    def __init__(self, api_key: str, model: str = "gemini-2.5-flash"):
         super().__init__()
 
         # ✅ configure globally (allowed)

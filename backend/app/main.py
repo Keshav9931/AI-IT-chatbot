@@ -38,7 +38,7 @@ async def query(payload: dict):
     if not question:
         return {"error": "Question is required"}
 
-    answer = await rag_engine.query(question)
+    answer = rag_engine.query(question)
 
     return {
         "question": question,

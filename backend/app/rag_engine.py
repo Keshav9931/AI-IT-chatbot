@@ -70,7 +70,7 @@ class RAGEngine:
         # -------------------------
         Settings.llm = GeminiLLM(
             api_key=self.google_api_key,
-            model="gemini-1.5-flash"
+            model="gemini-2.5-flash"
         )
 
         # -------------------------
